@@ -71,7 +71,8 @@
       "maintainer": "particl contributors <hello@particl.io>",
       "target": [
         "deb",
-        "tar.gz"
+        "tar.gz",
+        "snap"
       ],
       "desktop": {
         "Comment": "Particl, P2P Privacy project",
@@ -87,6 +88,12 @@
       "category": "ecommerce",
       "packageCategory": "wallet",
       "icon": "resources/linux"
+    },
+    "snap": {
+      "plugs": [
+        "default",
+        "desktop"
+      ]
     },
     "asar": true
   },
